@@ -1,0 +1,611 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    
+		<meta charset="utf-8">
+		
+		<title>Sairin-Personal portfolio</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+		
+		
+		
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+		</script>
+
+		
+		
+  </head>
+  
+  <style type="text/css">
+  
+  body{
+  background-color: #111111;
+  font-family:
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+   animation-duration: 1s; /* the duration of the animation */
+animation-timing-function: ease-out; /* how the animation will behave */
+animation-delay: 0s; /* how long to delay the animation from starting */
+animation-iteration-count: 1; /* how many times the animation will play */
+animation-name: slideInFromUp;
+  }
+  @keyframes slideInFromUp {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+  #sidenav{
+  float:right;
+  }
+  
+  #MiniLeftNav{
+  float:right;
+  }
+  
+  #home i{
+  margin-top:150px !important;
+  background-color:#ffb400 !important;
+  }
+   #user i{
+   border-radius:50% !important;
+   width:48px;
+   padding-left:12px ;
+   }
+  
+  .navtext i{
+  border-radius:50%;
+  background-color:grey;
+  padding:8px;
+  color:white;
+  z-index:1;
+  }
+  
+  
+  #MiniLeftNav li{
+ 
+	list-style: outside none none;
+    margin: 20px 25px 5px 0px;
+    padding: 0;
+    width: 5px;
+}
+#MiniLeftNav li a{
+    
+	
+    padding: 5px;
+    position: relative;
+	
+}
+.navtext i:hover{
+ background-color:#ffb400;
+
+}
+#MiniLeftNav span {
+
+    font-family: 'Raleway', sans-serif;
+    font-size:12px;
+    font-weight:550;
+	color:white !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    bottom: 27px;
+	background-color:#ffb400 !important;
+    right: -22px;
+	line-height: 48px;
+    overflow: hidden;
+    padding-bottom:0 ;
+    position: absolute;
+	z-index:-1;
+    white-space: nowrap;
+    width: 0;
+    border-radius: 50px 0px 0px 50px;        <!--   15px 50px 30px 5px;-->
+    /* CSS3 Transition: */
+	-webkit-transition: 0.50s;
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.50s;
+	transition:  0.50s; 
+	
+	
+}
+#MiniLeftNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+#MiniLeftNav a:hover{text-decoration:none;
+}
+#MiniLeftNav a span{
+	background-color:#fff;
+	color:#3d4f0c;
+}
+
+<!--cross-->
+  .container {
+  
+  display: inline-block;
+  cursor: pointer;
+}
+#cross{
+float:right;
+position:relative;
+margin-top:5%;
+margin-right:5%;
+margin-left:8%;
+border:1px solid #252525;
+border-radius:10%;
+background-color:#252525;
+padding:2%;
+
+}
+.bar1, .bar2, .bar3 {
+	
+  width: 26px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px) ;
+  transform: rotate(-45deg) translate(-6px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+  transform: rotate(45deg) translate(-6px, -6px) ;
+}
+#menu{
+display:none;
+position:fixed;
+width:80%;
+height:100%;
+margin:0;
+margin-right:50%;
+top:0;
+left:0;
+right:0;
+
+}
+.icon{
+
+color:white;
+font-weight:500;
+letter-spacing: 2px;
+border-bottom:1px solid grey;
+border-width:50%;
+text-transform: uppercase;
+font-size:16px;
+}
+.icon:hover{
+color:#ffb400;
+}
+.icon i{
+
+margin-top:4%;
+margin-right:5%;
+padding:4%;
+}
+.about i{
+margin-left:1% !important;
+}
+.contact{
+border:none !important;
+
+}
+
+.mypicmobile{
+position:absolute;
+border-radius:50%;
+left:0;
+right:0;
+margin:auto;
+margin-top:-260px;
+max-width:100%;
+height:260px;
+border:5px solid grey;
+
+    
+}
+.myname{
+color:#ffb400;
+font-weight:700;
+}
+
+.name{
+position:absolute;
+
+text-align:center;
+font-weight:700;
+left:0;
+right:0;
+text-align:center;
+margin-top:18px;
+}
+.description{
+text-align:center !important;
+left:0;
+right:0;
+text-align:center;
+position:absolute;
+margin-top:73px;
+font-size:20px;
+font-family:sans-serif,Monospace;
+padding:10px;
+}
+@media only screen and (max-width: 992px) {
+.content{
+color:white;
+margin:320px auto 2px auto ;
+font-family:sans-serif;
+text-align:center;
+}
+}
+@media only screen and (min-width: 992px) {
+.name{
+display:none;
+}
+}
+@media only screen and (min-width: 992px) {
+.myname{
+display:none;
+}
+}
+@media only screen and (min-width: 992px) {
+.description{
+display:none;
+}
+}
+@media only screen and (min-width: 992px) {
+.aboutme{
+display:none;
+}
+}
+@media only screen and (min-width: 576px) {
+    .heythere {
+        display: none;
+		
+    }
+}
+
+#hey{
+color:white;
+letter-spacing:2%;
+font-size:15px;
+margin-bottom:5%;
+}
+
+.heythere{
+margin-top:50%;
+color:white;
+
+font-family:sans-serif,Monospace;
+}
+
+@media only screen and (max-width: 576px) {
+.description1{
+display:none;
+}
+}
+
+#description1{
+margin-top:5%;
+font-size:17px;
+letter-spacing:1%;
+font-family:sans-serif,Monospace;
+
+}
+.btn-about{
+padding-left:5%;
+padding-right:5%;
+padding-bottom:3%;
+margin-top:5%;
+border-radius:30px;
+background-color:#ffb400;
+border:none;
+}
+.aboutme{
+color:white;
+font size:10px;
+text-transform: uppercase;
+font-family:sans-serif,Monospace;
+letter-spacing:1px;
+text-align:center;
+}
+.aboutme:hover{
+color:white;
+text-decoration:none;
+
+}
+.btnabout{
+position:absolute;
+text-align:center !important;
+padding-left:20px;
+padding-right:20px;
+padding-bottom:10px;
+padding-top:10px;
+border-radius:30px;
+background-color:#ffb400;
+border:none;
+font-size:20px;
+margin-left:-70px;
+margin-top:150px;
+}
+.myInfo{
+margin-top:18%;
+font-family:sans-serif,Monospace;
+color:white;
+margin-left:;
+text-align:left;
+margin-left:-50px;
+}
+.container-fluid{
+
+max-width:100%;
+}
+#description3{
+line-height: 2em;
+font-size:16px;
+}
+.desktopmypic{
+border-radius:5%;
+margin-top:12%;
+max-width:100%;
+height:90%;
+margin-left:-88px;
+z-index:1 !important;
+}
+.mynameDesktop{
+color:#FFB400;
+
+}
+#animate-button{
+color:white;
+text-transform: uppercase;
+font-size:14px;
+
+}
+#animate-button:hover{
+color:white;
+text-decoration:none;
+
+}
+ #animate-button i { 
+  visibility: hidden;
+ 
+}
+#animate-button:hover i{
+ animation: wiggle 1s ease;
+  animation-iteration-count: 1;
+visibility: visible;
+
+}
+@keyframes wiggle {
+  20%  { transform: translateX(6px);  }
+  40%  { transform: translateX(-6px); }
+  60%  { transform: translateX(2px);  }
+  80%  { transform: translateX(-1px); }
+  100% { transform: translateX(0);    }
+}
+.rectangleside{
+width:42px;
+height:618px;
+background-color:#ffb400;
+
+}
+.rectangletop{
+margin-left:-16px;
+width:75px;
+height:90px;
+background-color:#ffb400;
+z-index:-1;
+transform-origin: top left;
+transform:skew(17deg,0deg);
+}
+footer{
+z-index:-1;
+    height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+.rectanglebottom{
+margin-left:-13px;
+margin-top:48px;
+width:27%;
+height:52%;
+background-color:#ffb400;
+transform-origin: top left;
+    transform: skew(15deg, 0);
+
+}
+button:focus { 
+	outline: none;
+}
+</style>
+  
+		<body >
+		 <!-- full screen-->
+
+  <div class="container-fluid" >
+  		  
+ <div class="row ">
+ 
+  <div class="rectangleside d-none d-lg-block"></div>
+  
+   <div class="rectangletop d-none d-lg-block"></div>
+   
+   
+  
+  <div class="d-none d-lg-block  col-lg-4">
+
+<img src="sairin.JPG" alt="my picture" class="desktopmypic img-responsive d-flex "/>
+
+  </div>
+  
+  <div class="myInfo   col-lg-6  d-none d-lg-block" >
+  
+  <h5 >HEY THERE!</h5>
+  
+  <h2 >I'M <span class="mynameDesktop">SAIRIN RC</span><h2>
+  
+  <p id="description3">A Bangalore based web designer & front-end developer, I enjoy web development.</p>
+  
+  <button class="btn-about"><a href="about.html" id="animate-button" class=" " > more about me  <i class="fa fa-user fa-1x "></i></a></button>
+  
+  </div>
+  
+  
+  
+		<div class="sidenav  col-lg-1">
+		<ul class="d-none d-lg-block"id="MiniLeftNav">
+    <li id="home">
+        <a class="navtext home " href="#"><i class="fa fa-home fa-2x "></i> <span>HOME</span></a>
+    </li>
+    <li id="user">
+        <a class="navtext " href="about.html"><i class="fa fa-user fa-2x"></i> 
+            <span>ABOUT</span>
+        </a>
+    </li>
+    <li>
+         <a class="navtext" href="portfolioContents.html"><i class="fa fa-briefcase fa-2x"></i> 
+            <span>PORTFOLIO</span>
+         </a>
+    </li>
+    
+    <li>
+        <a class="navtext" href="contact.html"><i class="fa fa-envelope fa-2x"></i> 
+            <span>CONTACT</span>
+        </a>
+    </li>
+</ul>
+  </div>
+  </div>
+  </div>
+  
+  <footer>
+  
+  <div class="rectanglebottom d-none d-lg-block"></div> 
+  
+  </footer>
+  <!--mobile view-->
+  
+  <div class="d-block d-lg-none">
+  
+  <div  onclick="myFunction(this)">
+  <div id="cross"  >
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+ 	</div>
+   </div>
+  <div id="menu" class="container" >
+  <ul  class="nav flex-column list-unstyled"  >
+                <li class="nav-item active home"><a class="nav-link icon" href="portfolio.html"><i class="fa fa-home fa-2x"></i><span> Home</span></a></li>
+                <li class="nav-item"><a class="nav-link icon about" href="about.html"><i class="fa fa-user fa-2x"></i><span> About</span></a></li>
+                <li class="nav-item"><a class="nav-link icon" href="portfolioContents.html"><i class="fa fa-folder-open fa-2x"></i><span>Portfolio</span></a></li>
+                <li class="nav-item"><a class="nav-link icon contact" href="contact.html"><i class="fa fa-envelope-open fa-2x"></i><span>Contact</span></a></li>
+              
+   </ul>
+   </div>
+   
+  
+		
+</div>
+  <!--profile pic-->
+  
+  
+  <div class="container mymobilepage">
+  
+  
+   
+  <div class="row">
+  
+  <div class="heythere">
+  
+  <h5 id="hey">HEY THERE!</h5>
+  
+  <h2 >I'M <span class="myname">SAIRIN RAY CHOUDHURY</span><h2>
+  
+  <p id="description1">A Bangalore based web designer & front-end developer, I enjoy web development.</p>
+  
+  <button class=" btn-about"><a href="about.html" id="description1" class=" aboutme" >more about me</a></button>
+  
+  </div>
+  
+  <div class="content  description1">
+  
+  <img src="sairin.JPG" alt="my picture" class="mypicmobile d-flex d-block d-lg-none"/>
+  
+  <h2 class="name">I'M <span class="myname">SAIRIN RC</span><h2>
+  
+  <p class="description">A Bangalore based web designer & front-end developer, I enjoy web development.</p>
+  
+  <button class=" btnabout d-block d-lg-none"><a href="about.html" class="aboutme" >more about me</a></button>
+  
+  </div>
+  
+  </div>
+  
+  </div>
+  
+ 
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+				
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+			
+				<script type="text/javascript">
+				
+					function myFunction(x) {
+	  x.classList.toggle("change");
+	}
+	
+	$("#cross").click(function(){
+  $(".mymobilepage").toggle();
+});
+	
+			
+  $("#cross").click(function() {
+    $("#menu").animate({
+                    width:"toggle"
+                    
+                },'fast',  function() {
+                    
+                    $(this).css("background-color", "#252525");
+                    
+                });
+                
+            });
+            
+            
+ 
+ 
+				</script>
+	
+		</body>
+  
+</html>
+

@@ -1,0 +1,1581 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    
+		<meta charset="utf-8">
+		
+		<title>Sairin-Personal portfolio(about)</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+		
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Luckiest+Guy&family=Russo+One&family=Titan+One&display=swap" rel="stylesheet">	
+		
+		<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Luckiest+Guy&family=Russo+One&family=Titan+One&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+		</script>
+
+		
+		
+  </head>
+  
+  <style type="text/css">
+  
+  body{
+  
+	background-color: #111111;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:0 auto;
+	animation: 1s ease-out 0s 1 slideInFromLeft;
+	animation-duration: 1s; /* the duration of the animation */
+	animation-timing-function: ease-out; /* how the animation will behave */
+	animation-delay: 0s; /* how long to delay the animation from starting */
+	animation-iteration-count: 1; /* how many times the animation will play */
+	animation-name: slideInFromLeft;
+	
+  }
+  @keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+  .sidenav{
+  float:right;
+   position:fixed;
+  margin-left:90%;
+	z-index:1;
+
+  }
+  
+  
+  #MiniLeftNav{
+  float:right;
+   
+ }
+  
+  #home i{
+  margin-top:150px !important;
+  
+  }
+   #user i{
+   border-radius:50% !important;
+   width:48px;
+   padding-left:12px ;
+   background-color:#ffb400 !important;
+   }
+  
+  .navtext i{
+  border-radius:50%;
+  background-color:grey;
+  padding:8px;
+  color:white;
+  z-index:1; 
+  }
+  
+  
+  #MiniLeftNav li{
+ 
+	list-style: outside none none;
+    margin: 20px 25px 5px 0px;
+    padding: 0;
+    width: 45px;
+}
+#MiniLeftNav li a{
+    
+	
+    padding: 5px;
+    position: relative;
+	
+}
+.navtext i:hover{
+ background-color:#ffb400;
+
+}
+#MiniLeftNav span {
+	
+    font-family: 'Raleway', sans-serif;
+    font-size:12px;
+    font-weight:550;
+	color:white !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    bottom: 26px;
+	background-color:#ffb400 !important;
+    right: -22px;
+	line-height: 48px;
+    overflow: hidden;
+    padding-bottom:0 ;
+    position: absolute;
+	z-index:-1;
+    white-space: nowrap;
+    width: 0;
+    border-radius: 50px 0px 0px 50px;        <!--   15px 50px 30px 5px;-->
+    /* CSS3 Transition: */
+	-webkit-transition: 0.50s;
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.50s;
+	transition:  0.50s; 
+	
+	
+}
+#MiniLeftNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+#MiniLeftNav a:hover{text-decoration:none;
+}
+#MiniLeftNav a span{
+	background-color:#fff;
+	color:#3d4f0c;
+}
+
+<!--cross-->
+  .container {
+  
+  display: inline-block;
+  cursor: pointer;
+}
+#cross{
+
+float:right;
+position:fixed;
+margin-top:2%;
+margin-left:75%;
+border:1px solid #252525;
+border-radius:10%;
+background-color:#252525;
+padding:2%;
+}
+.bar1, .bar2, .bar3 {
+	
+  width: 26px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px) ;
+  transform: rotate(-45deg) translate(-6px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+  transform: rotate(45deg) translate(-6px, -6px) ;
+}
+#menu{
+display:none;
+position:fixed;
+width:80%;
+height:100%;
+margin:0;
+margin-right:50%;
+top:0;
+left:0;
+right:0;
+z-index:2;
+}
+.icon{
+
+color:white;
+font-weight:500;
+letter-spacing: 2px;
+border-bottom:1px solid grey;
+border-width:50%;
+text-transform: uppercase;
+font-size:16px;
+}
+.icon:hover{
+color:#ffb400;
+}
+.icon i{
+
+margin-top:4%;
+margin-right:5%;
+padding:4%;
+}
+.about i{
+margin-left:1% !important;
+}
+.contact{
+border:none !important;
+
+}
+header{
+
+height:10px;
+}
+#resume{
+position:absolute;
+color:#252525;
+
+margin-top:30px;
+font-weight:1000;
+font-size:104px;
+letter-spacing: 3px;
+left:0;
+right:0;
+text-align:center;
+font-family:"Arial Black", Gadget, sans-serif;
+z-index:-1;
+}
+#Aboutme-heading{
+animation: fadein 4s;
+position:absolute;
+left: 0;
+right: 0;
+text-align: center;
+color:white;
+text-align:center;
+margin-top:59px;
+z-index:1;
+font-weight:500;
+letter-spacing: 4px;
+font-family: 'Titan One', cursive;;
+font-size:52px;
+z-index:1;
+}
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+#me-heading{
+color:#FFB400;
+}
+.whitetags{
+color:white;
+
+}
+.personal-info-sec{
+margin-top:180px;
+
+}
+.info-sec1{
+line-height: 0.8;
+}
+.info-sec2{
+margin-top:53px;
+margin-left:-60px;
+}
+.greytag{
+color:#BEBEBE;
+}
+.bottommargin{
+margin-bottom:30px;
+
+}
+
+
+.numbers{
+color:#FFB400;
+font-family: 'Luckiest Guy', cursive;
+font-size:53px;
+}
+
+.bottommarginLin{
+margin-bottom:6px;
+color:#777777;
+}
+.inline-personal-info-sec{
+display:inline-block;
+font-size:18px;
+}
+@media (max-width: 1199.98px) { 
+.personal-info-sec-desk{
+display:none;
+}
+}
+.info-sec-tab2{
+margin-top:52px;
+margin-left:40%;
+position:absolute;
+}
+
+.info-sec-tab{
+margin-top:300px !important;
+font-size:18px;
+}
+@media only screen and (min-width: 576px) {
+.info-sec-tab1{
+display:none;
+}
+}
+
+
+
+.downloadCV{
+margin-left:20px;
+margin-top:25px;
+padding:10px;
+border-radius:30px;
+background-color:#ffb400;
+border:none;
+}
+.downloadCVlink{
+color:white;
+font size:10px;
+text-transform: uppercase;
+font-family:sans-serif,Monospace;
+letter-spacing:1px;
+text-align:center;
+}
+.downloadCVlink:hover{
+color:white;
+text-decoration:none;
+
+}
+.card{
+background-color:#111111 !important;
+border:1px solid #252525;
+padding-left:10px;
+margin-bottom:20px;
+margin-right:20px;
+z-index:-2;
+}
+.bottommargin2{
+text-align:center;
+margin-top:40px;
+}
+
+
+
+.progress{
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid #252525;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 10px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+	 height: 90%;
+    border-radius: 50%;
+    background: #111111;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #FDB300;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+.myskillssubs{
+text-align:center;
+
+}
+.my-skills{
+margin-left:auto;
+margin-right:auto;
+font-weight:bold;
+font-family: 'Roboto', sans-serif;
+letter-spacing:2px;
+font-size:24px;
+}
+.myskillssubs-1{
+margin-top:15px;
+text-align:center;
+
+}
+.icon-tag i {
+  background-color:#FFB400 ;
+  border-radius: 50%;
+  color:white;
+  padding: 12px;
+}
+.tag-button{
+border-radius:20px;
+font-size:10px;
+text-transform:uppercase;
+background-color:#4D4D4D;
+font-color:white;
+font-weight:bold;
+margin-left:20px;
+}
+.work-tag{
+font-size:18px;
+margin-left:44px;
+margin-top:35px;
+margin-bottom:15px;
+
+}
+.side-tag{
+color:#BBBBBB;
+font-size:15px;
+font-weight:bold;
+font-family: 'Roboto', sans-serif;
+letter-spacing:1px;
+}
+.lorem{
+color:white;
+margin-left:44px;
+font-size:14px;
+line-height: 1.5em;
+
+}
+.sideline-border{
+position:absolute;
+border-left:1px solid grey;
+ height: 8em;
+ margin-top:-15px;
+ margin-left:19px;
+z-index:-1;
+}
+.marginBottom{
+margin-bottom:110px;
+}
+
+.margin-bottom-tab{
+margin-top:40px;
+}
+
+@media (max-width: 575.98px) {
+#resume{
+display:none;
+}
+ }
+ @media (max-width: 575.98px) {
+#Aboutme-heading{
+display:none;
+}
+ }
+ 
+ @media (min-width: 575.98px) {
+.info-sec-mob{
+display:none !important;
+}
+ }
+@media (min-width: 575.98px) {
+.navbar{
+display:none !important;
+}
+ }
+
+ @media (max-width: 575.98px) {
+.info-sec-tab1{
+display:none !important; 
+}
+ }
+ 
+ @media (max-width: 575.98px) {
+.info-sec-tab1{
+display:none !important; 
+}
+ }
+ @media (max-width: 575.98px) {
+.info-sec-tab2{
+display:none !important;
+}
+ }
+ 
+  @media (max-width: 575.98px) {
+.tab-header{
+display:none !important;
+}
+ }
+ 
+ .info-sec-mob{
+ margin-top:50px;
+ font-size:12px;
+ margin-left:auto;
+ margin-right:auto;
+ }
+ .info-sec-mob2{
+
+ font-size:12px;
+  
+ }
+ .tab-header{
+ height:170px;
+ 
+ }
+ .info-sec-mob1{
+ margin-top:33px;
+ margin-left:15px;
+ margin-right:20%;
+ }
+ .navbar{
+ 
+ background-color:#212121 !important;
+ font-weight:bold;
+ border-bottom:1px solid #252525;
+ }
+ .me-tag{
+ color:#FFB400;
+ }
+ .navbar-nav{
+ 
+ }
+ .icons-mob i{
+ color:white;
+ 
+ }
+ .active-about-page{
+ color:#FFB400;
+ margin-left:6%;
+
+ }
+ .margin-list{
+ padding:3%;
+ margin-bottom:3%;
+ border-bottom:1px solid grey;
+ text-transform:uppercase;
+ }
+ .margin-list-contact{
+ padding:3%;
+ margin-bottom:3%;
+ 
+ text-transform:uppercase;
+ 
+ }
+ .nav-link{
+ margin-left:5%;
+ 
+ }
+ .margin-link-menu{
+ margin-left:5%;
+ color:white;
+ }
+ .phone{
+ color:white;
+ }
+ .phone:hover{
+ color:white;
+ text-decoration:none;
+ }
+ .mob-nav{
+ 
+position:fixed !important;
+
+}
+.mypicmobile{
+position:;
+border-radius:50%;
+left:0;
+right:0;
+margin:auto;
+
+max-width:100%;
+height:260px;
+border:5px solid grey;
+
+    
+}
+.navbar-toggler{
+border:none;
+}
+button:focus { outline: none; }
+#loader{
+width: 100%;
+  height: 10px;
+  background: #111111;
+  position: fixed;
+  animation: mymove 2s 1;
+  
+  top: 0;
+}
+@keyframes mymove {
+  0%   {top: 0px; left: 0px; background: #FFB400;}
+  25%  {top: 0px; left: -1000px; background:#FFB400;}
+  50%  {top: 0px; left: -1000px; background:#FFB400;}
+  100% {top: 0px; left: 0px; background:#252525;}
+}
+</style>
+  
+		<body >
+		 <!-- full screen-->
+		 <!--top prob
+		  <div class="d-block d-lg-block" id="loader">
+		 </div>
+		 -->
+		 <header class="d-none d-lg-block">
+		 
+		 <h1 id="resume">RESUME</h1>
+		 <h1 id="Aboutme-heading">ABOUT <span id="me-heading">ME</span></h1>
+		 
+		 </header>
+		 
+		 
+		 
+<div class="sidenav">
+		<ul class="d-none d-lg-block"id="MiniLeftNav">
+    <li id="home">
+        <a class="navtext home " href="portfolio.html"><i class="fa fa-home fa-2x "></i> <span>HOME</span></a>
+    </li>
+    <li id="user">
+        <a class="navtext" href="about.html"><i class="fa fa-user fa-2x"></i> 
+            <span>ABOUT</span>
+        </a>
+    </li>
+    <li>
+         <a class="navtext" href="portfolioContents.html"><i class="fa fa-briefcase fa-2x"></i> 
+            <span>PORTFOLIO</span>
+         </a>
+    </li>
+    
+    <li>
+        <a class="navtext" href="contact.html"><i class="fa fa-envelope fa-2x"></i> 
+            <span>CONTACT</span>
+        </a>
+    </li>
+</ul>
+  </div>
+  
+  
+
+  <div class="container personal-info-sec d-none d-lg-block info-sec1">
+		 
+		 <div class="row">
+		 
+		 <div class="col-md-3 ">
+		 
+		<h5 class="whitetags bottommargin inline-personal-info-sec"><strong>PERSONAL INFO</strong></h5>
+		
+		<p class="greytag">First Name:</p>
+		<p class="whitetags bottommargin">Sairin</p>
+		
+		<p class="greytag">Last Name:</p>
+		<p class="whitetags bottommargin">Ray Choudhury</p> 
+		
+		<p class="greytag">Age:</p>
+		<p class="whitetags bottommargin">19 years</p>
+		
+		<p class="greytag">Nationality:</p>
+		<p class="whitetags bottommargin">Indian</p> 
+		
+		<p class="greytag">Freelance:</p>
+		<p class="whitetags bottommargin">Available</p>
+		
+		
+		</div>
+		
+		<div class="col-md-3 info-sec2">
+		<p class="greytag">Address:</p>
+		<p class="whitetags bottommargin">Bangalore</p>
+		
+		<p class="greytag">Phone:</p>
+		<p class="whitetags bottommargin"><a class="phone" href="tel:7259601274">7259601274</a></p> 
+		
+		<p class="greytag">E-mail:</p>
+		<p class="whitetags bottommargin ">sairinraychoudhury@gmail.com</p>
+		
+		<p class="greytag">LinkedIn:</p>
+		<p class="whitetags bottommargin ">Sairin ray choudhury</p> 
+		
+		<p class="greytag">Languages:</p>
+		<p class="whitetags bottommargin">English,Hindi</p>
+		
+		
+		</div>
+		
+		<div class="col-md-3"style="margin-left:59px;">
+    <div class="card  bg-dark text-white">
+     		
+		<h1 class="card-title numbers">2<sup>+</sup></h1>
+		<p  class="card-subtitle mb-2 text-muted bottommarginLine"> ____</p><p class="whitetags">Completed Projects</p>
+
+    </div>
+  
+ 
+    <div class="card  bg-dark text-white">
+     		
+		<h1 class="card-title numbers">2<sup>+</sup></h1>
+		<p  class="card-subtitle mb-2 text-muted bottommarginLine"> ____</p><p class="whitetags">Completed Projects</p>
+
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card  bg-dark text-white">
+     		
+		<h1 class="card-title numbers">2<sup>+</sup></h1>
+		<p  class="card-subtitle mb-2 text-muted bottommarginLine"> ____</p><p class="whitetags">Completed Projects</p>
+
+    </div>
+	
+	<div class="card  bg-dark text-white" >
+     		
+		<h1 class="card-title numbers">2<sup>+</sup></h1>
+		<p  class="card-subtitle mb-2 text-muted bottommarginLine"> ____</p><p class="whitetags">Completed Projects</p>
+
+    </div>
+ 
+		 
+		 </div>
+</div>
+
+<div class="row">
+		
+		<button class=" downloadCV d-none d-lg-block" style="padding:20px;" ><a href="#" class="downloadCVlink" >DOWNLOAD CV</a></button>
+		
+</div>
+
+<div class="row">
+		
+		<p class="col-md-12 bottommargin2">________________________________________</p>
+		
+</div>
+
+<div class="row mt-4">
+
+		
+		<h4 class="whitetags my-skills">MY SKILLS</H4>
+		
+</div>
+
+		<div class="row mt-3">
+		
+			<div class="col-md-3 col-sm-6">
+            <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">90%</div>
+            </div>
+			<p class="whitetags myskillssubs-1">HTML</P>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs-1">CSS</P>
+        </div>
+		
+		<div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs-1">JAVASCRIPT</P>
+        </div>
+		<div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs-1">JQUERY</P>
+        </div>
+	
+
+		</div>
+		
+		<div class="row mt-5">
+		
+			<div class="col-md-3 col-sm-6">
+            <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">90%</div>
+            </div>
+			<p class="whitetags myskillssubs-1">BOOTSTRAP</P>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs-1">WORDPRESS</P>
+        </div>
+		
+		<div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs-1">PYTHON</P>
+        </div>
+		<div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs-1">C++</P>
+        </div>
+	
+</div>
+		
+		<div class="row mt-3">
+		
+		<p class="col-md-12 bottommargin2">________________________________________</p>
+		
+</div>
+
+<div class="row mt-3">
+		
+		<h3 class="whitetags my-skills">EXPERIENCE & EDUCATION</h3>
+		
+</div>
+
+<div class="row mt-5">
+		
+		<div class="col-md-6 marginBottom icon-tag ">
+		
+		<i class="fa fa-briefcase" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2018-present</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">WEB DEVELOPER <SPAN class="side-tag"> - FREELANCE</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+		
+		<div class="col-md-6  marginBottom icon-tag">
+		
+		<i class="fa fa-graduation-cap" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2018-present</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">ENGINEERING DEGREE <SPAN class="side-tag"> - MVIT</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+</div>
+  
+  <div class="row mt-5">
+		
+		<div class="col-md-6 marginBottom icon-tag">
+		
+		<i class="fa fa-briefcase" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2018-present</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">CODER <SPAN class="side-tag"> - LEARNER</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+		
+		<div class="col-md-6 marginBottom icon-tag">
+		
+		<i class="fa fa-graduation-cap" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2013-2018</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">SCHOOL <SPAN class="side-tag"> - NVN</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+</div>
+
+<div class="row mt-5">
+		
+		<div class="col-md-6 marginBottom icon-tag">
+		
+		<i class="fa fa-briefcase" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2018-present</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">WEB DESIGNER <SPAN class="side-tag"> - FREELANCE</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+		
+		<div class="col-md-6 marginBottom icon-tag">
+		
+		<i class="fa fa-graduation-cap" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2022-2024</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">MASTER DEGREE <SPAN class="side-tag"> - YET TO DO</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+</div>
+		 
+		</div>
+		
+		 
+		 <!--tab view-->
+		 <div class="container">
+		 
+		 
+		 
+		 <header class="d-block d-lg-none tab-header">
+		 
+		 <h1 id="resume">RESUME</h1>
+		 <h1 id="Aboutme-heading">ABOUT <span id="me-heading">ME</span></h1>
+		 
+		 <div class="d-block d-lg-none">
+  
+  <div  onclick="myFunction(this)">
+  <div id="cross"  >
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+ 	</div>
+   </div>
+  <div id="menu" class="container" >
+  <ul  class="nav flex-column list-unstyled"  >
+                <li class="nav-item active home"><a class="nav-link icon" href="portfolio.html"><i class="fa fa-home fa-2x"></i><span> Home</span></a></li>
+                <li class="nav-item"><a class="nav-link icon about" href="about.html"><i class="fa fa-user fa-2x"></i><span> About</span></a></li>
+                <li class="nav-item"><a class="nav-link icon" href="portfolioContents.html"><i class="fa fa-folder-open fa-2x"></i><span>Portfolio</span></a></li>
+                <li class="nav-item"><a class="nav-link icon contact" href="contact.html"><i class="fa fa-envelope-open fa-2x"></i><span>Contact</span></a></li>
+              
+   </ul>
+   </div>
+   
+  
+   
+   </div>
+		 
+		 </header>
+		 
+		 
+		 <div id=" info-sec-tab  ">
+		 
+		 <div class="row ">
+		 
+		 <div class="column info-sec-tab1 d-block d-lg-none ">
+		 
+		<h5 class="whitetags bottommargin "><strong>PERSONAL INFO</strong></h5>
+		
+		<p class="greytag">First Name: <span class="whitetags bottommargin">Sairin</span></p>
+		
+		
+		<p class="greytag">Last Name: <span class="whitetags bottommargin">Ray Choudhury</span></p>
+		 
+		
+		<p class="greytag">Age: <span class="whitetags bottommargin">19 years</span></p>
+		
+		
+		<p class="greytag">Nationality: <span class="whitetags bottommargin">Indian</span></p>
+		 
+		
+		<p class="greytag">Freelance: <span class="whitetags bottommargin">Available</span></p>
+		
+		
+		
+		</div>
+		
+		<div class="column info-sec-tab2 d-block d-lg-none">
+		
+		<p class="greytag">Address: <span class="whitetags bottommargin">Bangalore</span></p>
+		
+		
+		<p class="greytag">Phone: <span class="whitetags bottommargin"><a class="phone" href="tel:7259601274">7259601274</a></span></p>
+		 
+		
+		<p class="greytag">E-mail: <span class="whitetags bottommargin ">sairinraychoudhury@gmail.com</span></p>
+		
+		
+		<p class="greytag">LinkedIn: <span class="whitetags bottommargin ">Sairin ray choudhury</span></p>
+		 
+		
+		<p class="greytag">Languages: <span class="whitetags bottommargin">English,Hindi</span></p>
+		
+		
+		
+		</div>
+		</div>
+		 
+		</div>
+		
+		</div>
+		
+		
+		
+		<nav class="navbar  navbar-dark bg-dark fixed-top mob-nav" >
+  <a class="navbar-brand" href="#">ABOUT <SPAN class="me-tag">ME</SPAN></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav icons-mob">
+      <li class="nav-item margin-list">
+        <a class="nav-link" href="portfolio.html"><i class="fa fa-home fa-2x"></i><span class="margin-link-menu">Home </span></a>
+      </li>
+      <li class="nav-item margin-list">
+        <a class="nav-link nav-link-about " href="about.html"><i class="fa fa-user  fa-2x" style="color:#FFB400"></i><span class="active-about-page">About</span></a>
+      </li>
+      <li class="nav-item margin-list">
+        <a class="nav-link" href="portfolioContents.html"><i class="fa fa-briefcase fa-2x"></i><span class="margin-link-menu">Portfolio</span></a>
+      </li>
+      <li class="nav-item margin-list-contact">
+        <a class="nav-link " href="contact.html"><i class="fa fa-envelope fa-2x"></i><span class="margin-link-menu">Contact</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+		<div class="container">
+		
+		 <div class=" info-sec-mob  ">
+		 <div class="row">
+		 
+		 
+		 
+		 <div class="column  d-block d-lg-none ">
+		 <h5 class="whitetags bottommargin " style="margin-top:30px; margin-left:15px;"><strong>PERSONAL INFO</strong></h5>
+		 </div>
+		 </div>
+		 
+		 <div class="row">
+		 <div class="col-sm-6">
+		 <img src="sairin.JPG" alt="my picture" class="mypicmobile d-flex d-block d-lg-none"/>
+		</div>
+		</div>
+		 
+		 <div class="row">
+		 <div class="column info-sec-mob1">
+		<p class="greytag">First name: </p>
+		<p><span class="whitetags bottommargin">Sairin</span></p>
+		
+		<p class="greytag">Age: </p>
+		<p><span class="whitetags bottommargin">19years</span></p>
+		
+		<p class="greytag">Nationality: </p>
+		<p><span class="whitetags bottommargin ">Indian</span></p>
+		
+		<p class="greytag">Freelance: </p>
+		<p><span class="whitetags bottommargin">Available</span></p>
+		
+		</div>
+		
+		
+		
+		
+		<div class="column .info-sec-mob2 d-block d-lg-none" >
+		<p class="greytag" style="margin-top:34px;">Address: </p>
+		<p><span class="whitetags bottommargin">Bangalore</span></p>
+		
+		<p class="greytag">Phone: </p>
+		<p><span class="whitetags bottommargin"><a class="phone" href="tel:7259601274">7259601274</a></span></p>
+		
+		<p class="greytag">E-mail: </p>
+		<p><span class="whitetags bottommargin ">sairinraychoudhury@gmail.com</span></p>
+		
+		<p class="greytag">LinkedIn: </p>
+		<p><span class="whitetags bottommargin ">Sairin ray choudhury</span></p>
+		 
+		</div>
+		</div>
+		 
+		
+		</div>
+		
+		
+		<div class="row">
+		
+		<button class=" downloadCV d-block d-lg-none" ><a href="#" class="downloadCVlink" >DOWNLOAD CV</a></button>
+		
+		</div>
+		
+		<div class="d-block d-lg-none">
+		
+		<div class="row mt-5">
+  <div class="col-sm-6 ">
+    <div class="card  bg-dark text-white">
+     		
+		<h1 class="card-title numbers">2<sup>+</sup></h1>
+		<p  class="card-subtitle mb-2 text-muted bottommarginLine"> ____</p><p class="whitetags">Completed Projects</p>
+
+    </div>
+  </div>
+  <div class="col-sm-6 ">
+    <div class="card  bg-dark text-white">
+     		
+		<h1 class="card-title numbers">2<sup>+</sup></h1>
+		<p  class="card-subtitle mb-2 text-muted bottommarginLine"> ____</p><p class="whitetags">Completed Projects</p>
+
+    </div>
+  </div>
+</div>
+
+
+		<div class="row ">
+  <div class="col-sm-6" >
+    <div class="card  bg-dark text-white">
+     		
+		<h1 class="card-title numbers">2<sup>+</sup></h1>
+		<p  class="card-subtitle mb-2 text-muted bottommarginLine"> ____</p><p class="whitetags">Completed Projects</p>
+
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card  bg-dark text-white">
+     		
+		<h1 class="card-title numbers">2<sup>+</sup></h1>
+		<p  class="card-subtitle mb-2 text-muted bottommarginLine"> ____</p><p class="whitetags">Completed Projects</p>
+
+    </div>
+  </div>
+</div>
+
+<div class="row">
+		
+		<p class="col-sm-12 bottommargin2">__________________________</p>
+		
+</div>
+
+<div class="row ">
+
+		
+		<h4 class="whitetags my-skills">MY SKILLS</H4>
+		
+</div>
+
+
+		<div class="row mt-5">
+		
+			<div class="col-md-3 col-sm-6">
+            <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">90%</div>
+            </div>
+			<p class="whitetags myskillssubs">HTML</P>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs">CSS</P>
+        </div>
+		
+		<div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs">JAVASCRIPT</P>
+        </div>
+		<div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs">JQUERY</P>
+        </div>
+	
+
+		</div>
+		
+		<div class="row ">
+		
+			<div class="col-md-3 col-sm-6">
+            <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">90%</div>
+            </div>
+			<p class="whitetags myskillssubs">BOOTSTRAP</P>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs">WORDPRESS</P>
+        </div>
+		
+		<div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs">PYTHON</P>
+        </div>
+		<div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">75%</div>
+            </div>
+			<p class="whitetags myskillssubs">C++</P>
+        </div>
+	
+</div>
+		<div class="row">
+		
+		<p class="col-sm-12 bottommargin2">__________________________</p>
+		
+</div>
+
+		
+	
+ <div class="row mt-3">
+		
+		<h3 class="whitetags my-skills">EXPERIENCE & EDUCATION</h3>
+		
+</div>
+
+<div class="row mt-5">
+		
+		<div class="col-sm-12 marginBottom icon-tag">
+		
+		<i class="fa fa-briefcase icon-tag" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2018-present</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">WEB DEVELOPER <SPAN class="side-tag"> - FREELANCE</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+		
+		<div class="col-sm-12  marginBottom icon-tag margin-bottom-tab">
+		
+		<i class="fa fa-graduation-cap" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2018-present</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">ENGINEERING DEGREE <SPAN class="side-tag"> - MVIT</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+</div>
+  
+  <div class="row mt-5">
+		
+		<div class="col-sm-12 marginBottom icon-tag">
+		
+		<i class="fa fa-briefcase" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2018-present</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">CODER <SPAN class="side-tag"> - LEARNER</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+		
+		<div class="col-sm-12 marginBottom icon-tag margin-bottom-tab">
+		
+		<i class="fa fa-graduation-cap" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2013-2018</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">SCHOOL <SPAN class="side-tag"> - NVN</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+</div>
+
+<div class="row mt-5">
+		
+		<div class="col-sm-12 marginBottom icon-tag">
+		
+		<i class="fa fa-briefcase" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2018-present</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">WEB DESIGNER <SPAN class="side-tag"> - FREELANCE</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+		
+		<div class="col-sm-12 marginBottom icon-tag margin-bottom-tab">
+		
+		<i class="fa fa-graduation-cap" aria-hidden="true"></i><button type="button" class="btn btn-secondary tag-button" disabled>2022-2024</button>
+		
+		<div class="sideline-border">
+		
+		<h5 class="whitetags work-tag">MASTER DEGREE <SPAN class="side-tag"> - YET TO DO</SPAN></H5>
+		
+		<P class="lorem">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit</P>
+		
+		</div>
+		
+		</div> 
+</div>
+  
+  
+		
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+				
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+			
+				<script type="text/javascript">
+				
+					function myFunction(x) {
+	  x.classList.toggle("change");
+	}
+	
+	$("#cross").click(function(){
+  $(".mymobilepage").toggle();
+});
+	
+			
+  $("#cross").click(function() {
+    $("#menu").animate({
+                    width:"toggle"
+                    
+                },'fast',  function() {
+                    
+                    $(this).css("background-color", "#252525");
+                    
+                });
+                
+            });
+            
+            
+
+ 
+ 
+				</script>
+	
+		</body>
+  
+</html>

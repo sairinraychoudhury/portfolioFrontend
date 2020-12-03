@@ -1,0 +1,1415 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    
+		<meta charset="utf-8">
+		
+		<title>Sairin-Personal portfolio(about)</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+		
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Luckiest+Guy&family=Russo+One&family=Titan+One&display=swap" rel="stylesheet">	
+		
+		<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Luckiest+Guy&family=Russo+One&family=Titan+One&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+		</script>
+
+		
+		
+  </head>
+  
+  <style type="text/css">
+  
+  body{
+  
+	background-color: #111111;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:0 auto;
+	animation: 1s ease-out 0s 1 slideInFromLeft;
+	animation-duration: 1s; /* the duration of the animation */
+	animation-timing-function: ease-out; /* how the animation will behave */
+	animation-delay: 0s; /* how long to delay the animation from starting */
+	animation-iteration-count: 1; /* how many times the animation will play */
+	animation-name: slideInFromLeft;
+	
+  }
+  @keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+  .sidenav{
+  float:right;
+  position:fixed;
+  margin-left:90%;
+	z-index:1;
+  }
+  
+  
+  #MiniLeftNav{
+  float:right;
+   
+ }
+  
+  #home i{
+  margin-top:150px !important;
+  
+  }
+   #user i{
+   border-radius:50% !important;
+   width:48px;
+   padding-left:12px ;
+   
+   }
+   #portfolioicon i{
+   background-color:#ffb400 !important;
+   
+   }
+  
+  .navtext i{
+  border-radius:50%;
+  background-color:grey;
+  padding:8px;
+  color:white;
+  z-index:1; 
+  }
+  
+  
+  #MiniLeftNav li{
+ 
+	list-style: outside none none;
+    margin: 20px 25px 5px 0px;
+    padding: 0;
+    width: 45px;
+}
+#MiniLeftNav li a{
+    
+	
+    padding: 5px;
+    position: relative;
+	
+}
+.navtext i:hover{
+ background-color:#ffb400;
+
+}
+#MiniLeftNav span {
+	
+    font-family: 'Raleway', sans-serif;
+    font-size:12px;
+    font-weight:550;
+	color:white !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    bottom: 25px;
+	background-color:#ffb400 !important;
+    right: -22px;
+	line-height: 46px;
+    overflow: hidden;
+    padding-bottom:0 ;
+    position: absolute;
+	z-index:-1;
+    white-space: nowrap;
+    width: 0;
+    border-radius: 50px 0px 0px 50px;        <!--   15px 50px 30px 5px;-->
+    /* CSS3 Transition: */
+	-webkit-transition: 0.50s;
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.50s;
+	transition:  0.50s; 
+	
+	
+}
+#MiniLeftNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+#MiniLeftNav a:hover{text-decoration:none;
+}
+#MiniLeftNav a span{
+	background-color:#fff;
+	color:#3d4f0c;
+}
+
+<!--cross-->
+  .container {
+  
+  display: inline-block;
+  cursor: pointer;
+}
+#cross{
+
+	margin-right:5% ;
+	margin-top:1%;
+	animation: mymove2 2s 1;
+	border:1px solid #252525;
+	border-radius:10%;
+	background-color:#252525;
+	padding:1%;
+	position:fixed;
+	z-index:2 ;
+	margin-left:82% !important;
+}
+.bar1, .bar2, .bar3 {
+	
+  width: 26px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px) ;
+  transform: rotate(-45deg) translate(-6px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+  transform: rotate(45deg) translate(-6px, -6px) ;
+}
+#menu{
+display:none;
+position:fixed;
+width:80%;
+height:100%;
+margin:0;
+margin-right:50%;
+top:0;
+left:0;
+right:0;
+z-index:2;
+}
+.icon{
+
+color:white;
+font-weight:500;
+letter-spacing: 2px;
+border-bottom:1px solid grey;
+border-width:50%;
+text-transform: uppercase;
+font-size:16px;
+}
+.icon:hover{
+color:#ffb400;
+}
+.icon i{
+
+margin-top:4%;
+margin-right:5%;
+padding:4%;
+}
+.about i{
+margin-left:1% !important;
+}
+.contact{
+border:none !important;
+
+}
+header{
+width:100%;
+height:80px;
+
+}
+#works{
+position:absolute;
+color:#252525;
+
+margin-top:30px;
+font-weight:1000;
+font-size:114px;
+letter-spacing: 3px;
+left:0;
+right:0;
+text-align:center;
+font-family:"Arial Black", Gadget, sans-serif;
+z-index:-1;
+}
+#Aboutme-heading{
+animation: fadein 4s;
+position:absolute;
+left: 0;
+right: 0;
+text-align: center;
+color:white;
+text-align:center;
+margin-top:67px;
+z-index:1;
+font-weight:500;
+letter-spacing: 4px;
+font-family: 'Titan One', cursive;
+font-size:52px;
+z-index:1;
+}
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+#me-heading{
+color:#FFB400;
+}
+.whitetags{
+color:white;
+
+}
+#bbc{
+width:100%;
+height:100%;
+border-radius:10px;
+
+  display: block;
+ 
+}
+.marginTop{
+margin-top:9%;
+
+}
+.marginBottom{
+margin-bottom:5%;
+}
+
+.containerslidetop {
+  position: relative;
+}
+
+.imageslidetop {
+  display: block;
+  width: 92%;
+  height: auto;
+  
+}
+
+.overlayslidetop {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:#FFB400;
+  overflow: hidden;
+  width: 92%;
+  height:0;
+  transition: .4s ease;
+  border-radius:10px;
+ margin-left:4%;
+ 
+}
+
+.containerslidetop:hover .overlayslidetop {
+  bottom: 0;
+  height: 100%;
+  width:92%;
+}
+
+.textslidetop {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space:nowrap;
+}
+.containerslideleft {
+  position: relative;
+}
+
+.imageslideleft {
+  display: block;
+  width: 90%;
+  height: auto;
+}
+
+.overlayslideleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left:4%;
+  background-color:#FFB400;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border-radius:10px;
+}
+
+.containerslideleft:hover .overlayslideleft {
+  width: 93%;
+}
+
+.textslideleft {
+  white-space:nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.containerslideright {
+  position: relative;
+}
+
+.imageslideright {
+  display: block;
+  width: 96%;
+  height: auto;
+}
+
+.overlayslideright {
+  position: absolute;
+  bottom: 0;
+  left: 96%;
+  right: 0;
+  background-color: #FFB400;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border-radius:10px;
+  
+}
+
+.containerslideright:hover .overlayslideright {
+  width: 96%;
+  left: 0;
+}
+
+.textslideright {
+  white-space:nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+* {
+  box-sizing: border-box;
+}
+/* The Modal (background) */
+.modal {
+	animation: fadein 2s;
+  display: none;
+  position:fixed;
+  z-index: 1;
+  padding-top: 50px;
+  padding-bottom:50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, .8);
+}
+div.modal{
+
+}
+/* Modal Content */
+.modal-content {
+border-radius:10px;
+  position: relative;
+  background-color:#252525;
+  margin: auto;
+  padding-left:30px;
+  padding-right:30px;
+  width: 100%;
+  max-width: 800px;
+  opacity:1 !important;
+  height:100%;
+  
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 55px;
+  font-weight:500;
+}
+
+.close:hover,
+.close:focus {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+  
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white !important;
+  font-weight: 500;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color:white;
+  font-size: 12px;
+  padding: 8px 8px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.demo {
+  opacity: 0.6;
+}
+
+
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projectHeader{
+color:#FFB400;
+display:block;
+margin-left:auto;
+margin-right:auto;
+background-color:#252525;
+font-size:30px;
+font-weight:400;
+
+font-family: 'Titan One', cursive;
+}
+.marginTop2{
+margin-top:20% !important;
+}
+
+
+
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 40px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+
+.modal-content1 {
+  position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:none !important;
+  margin-top:50px;
+}
+
+.modal-header1{
+display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.projectHeader1{
+color:#FFB400;
+text-align:center;
+font-size:30px;
+font-weight:400;
+
+font-family: 'Titan One', cursive;
+}
+.projectcontent{
+
+}
+
+/* The Close Button */
+.close1 {
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 95px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides1 {
+  display: none;
+}
+
+.cursor1 {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover,
+.next1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container1 {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo1 {
+  opacity: 0.6;
+}
+
+.active1,
+.demo1:hover {
+  opacity: 1;
+}
+.title-content{
+font-size:12px;
+color:#DBDBDB;
+}
+.description-project{
+font-size:12px;
+}
+@media (max-width: 575.98px) {
+#works{
+display:none;
+}
+ }
+ @media (max-width: 575.98px) {
+#Aboutme-heading{
+display:none;
+}
+ }
+ #mob-taskbar{
+background-color:#252525;
+width:100%;
+height:60px;
+border-bottom:solid 1px #333333;
+position:fixed;
+z-index:1;
+animation: mymove2 2s 1;
+margin-top:-80px;
+}
+@keyframes mymove2 {
+  from { opacity: 0.5}
+  to   { opacity: 1}
+  0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@media only screen and (min-width: 580px) {
+#mob-taskbar{
+display:none;
+}
+}
+@media only screen and (min-width: 580px) {
+.mob-section{
+display:none;
+}
+}
+
+@media only screen and (min-width: 580px) {
+.mobSection{
+display:none !important;
+}
+}
+
+
+@keyframes mymove2 {
+  from { opacity: 0.5}
+  to   { opacity: 1}
+  0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+ .side-heading-mob{
+font-family: 'Titan One', cursive;
+color:white;
+padding-top:1%;
+padding-left:5%;
+letter-spacing:1px;
+font-size:26px;
+}
+#touch-heading-mob{
+font-family: 'Titan One', cursive;
+color:white;
+padding-top:1%;
+color:#FFB400;
+letter-spacing:1px;
+}
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 40px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+
+.modal-content2 {
+  position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:none !important;
+  margin-top:90px;
+}
+
+.modal-header2{
+display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.projectHeader2{
+color:#FFB400;
+text-align:center;
+font-size:30px;
+font-weight:400;
+
+font-family: 'Titan One', cursive;
+}
+
+
+/* The Close Button */
+.close2 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 50%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides2 {
+  display: none;
+}
+
+.cursor2 {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev2,
+.next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+  width: auto;
+  padding: 26px;
+  margin-top: -50px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover,
+.next2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.caption-container2 {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo2 {
+  opacity: 0.6;
+}
+
+.active2,
+.demo1:hover {
+  opacity: 1;
+}
+
+</style>
+  
+		<body >
+		 <!-- full screen-->
+		 <!--top prob
+		  <div class="d-block d-lg-block" id="loader">
+		 </div>
+		 -->
+		 
+		 
+		 
+		 
+<div class="sidenav">
+		<ul class="d-none d-lg-block"id="MiniLeftNav">
+    <li id="home">
+        <a class="navtext home " href="portfolio.html"><i class="fa fa-home fa-2x "></i> <span>HOME</span></a>
+    </li>
+    <li id="user">
+        <a class="navtext" href="about.html"><i class="fa fa-user fa-2x"></i> 
+            <span>ABOUT</span>
+        </a>
+    </li>
+    <li id="portfolioicon">
+         <a class="navtext" href="portfolioContents.html"><i class="fa fa-briefcase fa-2x"></i> 
+            <span>PORTFOLIO</span>
+         </a>
+    </li>
+    
+    <li>
+        <a class="navtext" href="contact.html"><i class="fa fa-envelope fa-2x"></i> 
+            <span>CONTACT</span>
+        </a>
+    </li>
+</ul>
+  </div>
+  
+  
+  <header class="d-none d-lg-block ">
+		 
+		 <h1 id="works">WORKS</h1>
+		 <h1 id="Aboutme-heading">MY<span id="me-heading">PORTFOLIO</span></h1>
+		 
+		 </header>
+  
+  
+  <div class="container marginTop d-none d-lg-block">
+  
+  <div class="row mt-5  mx-auto">
+  <div class="col-md-4 containerslidetop">
+  <img src="bbc.PNG" id="bbc" alt="BBC page"  class="imageslidetop"/>
+   <div class="overlayslidetop" onclick="openModal();currentSlide(1)">
+    <div class="textslidetop">BBC</div>
+  </div>
+   </div>
+   <div class="col-md-4 containerslideleft">
+  <img src="google.PNG" id="bbc" alt="google page"  class="imageslideleft"/>
+  <div class="overlayslideleft" onclick="openModal();currentSlide(2)">
+    <div class="textslideleft">GOOGLE</div>
+  </div>
+  </div>
+  <div class="col-md-4 containerslideleft sidepics"  >
+  <img src="allbirds.PNG" id="bbc" alt="all birds page"  class="imageslideleft"/>
+  <div class="overlayslideleft" onclick="openModal();currentSlide(3)">
+    <div class="textslideleft">ALL BIRDS</div>
+  </div>
+  </div>
+ 
+  </div>
+  
+  <div class="row mt-5  mx-auto marginBottom ">
+  <div class="col-md-4 containerslideright ">
+  <img src="itsKart.PNG" id="bbc" alt="Its Kart page"  class="imageslideright" />
+  <div class="overlayslideright" onclick="openModal();currentSlide(4)">
+    <div class="textslideright">ITS KART</div>
+  </div>
+   </div>
+   
+  <div class="col-md-4 containerslideright" >
+  <img src="applanding.PNG" id="bbc" alt="App Landing page"  class="imageslideright"/>
+  <div class="overlayslideright" onclick="openModal();currentSlide(5)">
+    <div class="textslideright">APP LANDING</div>
+  </div>
+  </div>
+  
+  <div class="col-md-4 containerslidetop sidepics">
+  <img src="coronav.PNG" id="bbc" alt="form evaluation page"  class="imageslidetop"/>
+  <div class="overlayslidetop" onclick="openModal();currentSlide(6)">
+    <div class="textslidetop">CoronaV</div>
+  </div>
+  </div>
+ 
+  </div>
+  
+  <div id="myModal" class="modal ">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides  w3-animate-opacity">
+	<div class="modal-header">
+	<h5 class="projectHeader">BBC <span class="whitetags">PROJECT</span></h5>
+	</div>
+     
+      <img src="bbc.PNG" style="width:100%"/>
+    </div>
+
+    <div class="mySlides w3-animate-opacity">
+	<div class="modal-header">
+	<h5 class="projectHeader">GOOGLE <span class="whitetags">PROJECT</span></h5>
+	</div>
+     
+      <img src="google.PNG" style="width:100%">
+    </div>
+
+    <div class="mySlides   w3-animate-opacity">
+	<div class="modal-header">
+	<h5 class="projectHeader">ALL BIRDS <span class="whitetags">PROJECT</span></h5>
+	</div>
+     
+      <img src="allbirds.PNG" style="width:100%">
+    </div>
+	
+	<div class="mySlides  w3-animate-opacity">
+	<div class="modal-header">
+	<h5 class="projectHeader">ITS KART <span class="whitetags">PROJECT</span></h5>
+	</div>
+  
+      <img src="itsKart.PNG" style="width:100%">
+    </div>
+    
+    
+    <div class="mySlides  w3-animate-opacity">
+	<div class="modal-header">
+	<h5 class="projectHeader">APP LANDING <span class="whitetags">PROJECT</span></h5>
+	</div>
+      
+      <img src="applanding.PNG" style="width:100%">
+    </div>
+	
+	<div class="mySlides  w3-animate-opacity">
+	<div class="modal-header">
+	<h5 class="projectHeader">CoronaV <span class="whitetags">PROJECT<span></h5>
+	</div>
+    
+      <img src="coronav.PNG" style="width:100%">
+    </div>
+    
+   
+
+   
+
+    
+  </div>
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+  
+  </div>
+  
+  <!--tab-->
+  
+   <div class="container">
+		 
+		 
+		 
+		 <header class="d-block d-lg-none tab-header">
+		 
+		 <h1 id="works">WORKS</h1>
+		 <h1 id="Aboutme-heading">MY<span id="me-heading">PORTFOLIO</span></h1>
+		 
+		 <div class="d-block d-lg-none">
+  
+  <div  onclick="myFunction(this)">
+  <div id="cross"  >
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+ 	</div>
+   </div>
+  <div id="menu" class="container" >
+  <ul  class="nav flex-column list-unstyled"  >
+                <li class="nav-item active home"><a class="nav-link icon" href="portfolio.html"><i class="fa fa-home fa-2x"></i><span> Home</span></a></li>
+                <li class="nav-item"><a class="nav-link icon about" href="about.html"><i class="fa fa-user fa-2x"></i><span> About</span></a></li>
+                <li class="nav-item"><a class="nav-link icon" href="portfolioContents.html"><i class="fa fa-folder-open fa-2x"></i><span>Portfolio</span></a></li>
+                <li class="nav-item"><a class="nav-link icon contact" href="contact.html"><i class="fa fa-envelope-open fa-2x"></i><span>Contact</span></a></li>
+              
+   </ul>
+   </div>
+   
+  
+   
+   </div>
+		 
+		 </header>
+		 
+		 </div>
+		 
+		 <div class="container d-none d-lg-none d-md-block d-sm-block">
+		 
+		 <div class="row mt-5 marginTop2 mx-auto">
+  <div class="col-sm-6 ">
+  <img src="bbc.PNG" id="bbc" alt="BBC page" onclick="openModal1();currentSlide1(1)" />
+   </div>
+   
+  <div class="col-sm-6 containerslideleft">
+  <img src="google.PNG" id="bbc" alt="GOOGLE page" onclick="openModal1();currentSlide1(2)" />
+  </div>
+  </div>
+  
+  
+  <div class="row mt-5  mx-auto">
+  <div class="col-sm-6 "  >
+  <img src="allbirds.PNG" id="bbc" alt="all birds page"  class="imageslideleft" onclick="openModal1();currentSlide1(3)"/>
+  </div>
+  
+ <div class="col-sm-6  ">
+  <img src="itsKart.PNG" id="bbc" alt="Its Kart page"  class="imageslideright" onclick="openModal1();currentSlide1(4)" />
+  </div>
+   </div>
+   
+   <div class="row mt-5  mx-auto marginBottom">
+  <div class="col-sm-6 " >
+  <img src="applanding.PNG" id="bbc" alt="App Landing page"  class="imageslideright" onclick="openModal1();currentSlide1(5)"/>
+  </div>
+  
+  <div class="col-sm-6 ">
+  <img src="coronav.PNG" id="bbc" alt="form evaluation page"  class="imageslidetop" onclick="openModal1();currentSlide1(6)"/>
+  </div>
+ </div>
+		 
+		 <div id="myModal1" class="modal1">
+  <span class="close1 cursor" onclick="closeModal1()">&times;</span>
+  <div class="modal-content1">
+
+    <div class="mySlides1 w3-animate-zoom">
+      
+	<h5 style="margin-bottom:20px;"class="projectHeader1">BBC <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>Replication of BBC Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS</strong></P>
+      <img src="bbc.PNG" style="width:100%">
+    </div>
+
+    <div class="mySlides1 w3-animate-zoom">
+	<h5 style="margin-bottom:20px;"class="projectHeader1">GOOGLE <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>Replication of Google Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS,JQUERY,JAVASCRIPT</strong></P>
+     <img src="google.PNG" style="width:100%">
+    </div>
+
+    <div class="mySlides1 w3-animate-zoom">
+      <h5 style="margin-bottom:20px;"class="projectHeader1">ALL BIRDS <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>Replication of All Birds Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS,JQUERY,JAVASCRIPT,BOOTSTRAP</strong></P>
+     <img src="allbirds.PNG" style="width:100%">
+    </div>
+    
+    <div class="mySlides1 w3-animate-zoom">
+	<h5 style="margin-bottom:20px;"class="projectHeader1">ITS KART <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>Replication of Its Kart Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS</strong></P>
+   <img src="itsKart.PNG" style="width:100%">
+    </div>
+	
+	<div class="mySlides1 w3-animate-zoom">
+      <h5 style="margin-bottom:20px;"class="projectHeader1">APP LANDING <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>App Landing Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS,JQUERY,JAVASCRIPT,BOOTSTRAP</strong></P>
+   <img src="applanding.PNG" style="width:100%">
+    </div>
+	
+	<div class="mySlides1 w3-animate-zoom ">
+      <h5 style="margin-bottom:20px;"class="projectHeader1">CoronaV <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>CoronaV</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS,JQUERY,JAVASCRIPT,BOOTSTRAP,MySQL,PHP</strong></P>
+   <img src="coronav.PNG" style="width:100%">
+    </div>
+   
+
+  
+
+
+    
+  </div>
+   
+    <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+</div>
+</div>
+
+
+<!--mob-->
+
+<div  id="mob-taskbar">
+	<h4 class="side-heading-mob">MY <SPAN  id="touch-heading-mob">PORTFOLIO</SPAN></h4>
+  </div>
+  
+ <div class="container d-block d-sm-block mobSection">
+ 
+ <div class="row mt-3  mx-auto">
+  <div class="col-sm-12 marginBottom">
+  <img src="bbc.PNG" id="bbc" alt="BBC page" onclick="openModal2();currentSlide2(1)" />
+   </div>
+   
+  <div class="col-sm-12 marginBottom containerslideleft">
+  <img src="google.PNG" id="bbc" alt="GOOGLE page" onclick="openModal2();currentSlide2(2)" />
+  </div>
+  
+  
+  
+  
+  <div class="col-sm-12 marginBottom"  >
+  <img src="allbirds.PNG" id="bbc" alt="all birds page"  class="imageslideleft" onclick="openModal2();currentSlide2(3)"/>
+  </div>
+  
+ <div class="col-sm-12 marginBottom ">
+  <img src="itsKart.PNG" id="bbc" alt="Its Kart page"  class="imageslideright" onclick="openModal2();currentSlide2(4)" />
+  </div>
+   
+   
+  
+  <div class="col-sm-12 marginBottom" >
+  <img src="applanding.PNG" id="bbc" alt="App Landing page"  class="imageslideright" onclick="openModal2();currentSlide2(5)"/>
+  </div>
+  
+  <div class="col-sm-12 marginBottom ">
+  <img src="coronav.PNG" id="bbc" alt="CoronaV page"  class="imageslidetop" onclick="openModal2();currentSlide2(6)"/>
+  </div>
+ 
+		 
+		 <div id="myModal2" class="modal2">
+  <span class="close2 cursor" onclick="closeModal2()">&times;</span>
+  <div class="modal-content2">
+
+    <div class="mySlides2 w3-animate-zoom">
+      
+	<h5 style="margin-bottom:20px;"class="projectHeader1">BBC <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>Replication of BBC Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS</strong></P>
+      <img src="bbc.PNG" style="width:100%">
+    </div>
+
+    <div class="mySlides2 w3-animate-zoom">
+	<h5 style="margin-bottom:20px;"class="projectHeader1">GOOGLE <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>Replication of Google Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS,JQUERY,JAVASCRIPT</strong></P>
+     <img src="google.PNG" style="width:100%">
+    </div>
+
+    <div class="mySlides2 w3-animate-zoom">
+      <h5 style="margin-bottom:20px;"class="projectHeader1">ALL BIRDS <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>Replication of All Birds Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS,JQUERY,JAVASCRIPT,BOOTSTRAP</strong></P>
+     <img src="allbirds.PNG" style="width:100%">
+    </div>
+    
+    <div class="mySlides2 w3-animate-zoom">
+	<h5 style="margin-bottom:20px;"class="projectHeader1">ITS KART <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>Replication of Its Kart Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS</strong></P>
+   <img src="itsKart.PNG" style="width:100%">
+    </div>
+	
+	<div class="mySlides2 w3-animate-zoom">
+      <h5 style="margin-bottom:20px;"class="projectHeader1">APP LANDING <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>App Landing Home Page</strong></P>
+	<p class="whitetags description-project"><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS,JQUERY,JAVASCRIPT,BOOTSTRAP</strong></P>
+   <img src="applanding.PNG" style="width:100%">
+    </div>
+	
+	<div class="mySlides2 w3-animate-zoom ">
+      <h5 style="margin-bottom:20px;"class="projectHeader1">CoronaV <span class="whitetags"> PROJECT</span></h5>
+	<p class="whitetags description-project"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="title-content">Project </span>: <strong>CoronaV</strong></P>
+	<p class="whitetags description-project "><i class="fa fa-code" aria-hidden="true"></i><span class="title-content"> Languages Used </span>: <strong> HTML,CSS,JQUERY,JAVASCRIPT,BOOTSTRAP,MySQL,PHP</strong></P>
+   <img src="coronav.PNG" style="width:100%">
+    </div>
+   
+
+  
+
+
+    
+  </div>
+   
+    <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+    <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+</div>
+ 
+ </div>
+		 
+		 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+				
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+			
+				<script type="text/javascript">
+				
+					function myFunction(x) {
+	  x.classList.toggle("change");
+	}
+	
+	$("#cross").click(function(){
+  $(".mymobilepage").toggle();
+});
+	
+			
+  $("#cross").click(function() {
+    $("#menu").animate({
+                    width:"toggle"
+                    
+                },'fast',  function() {
+                    
+                    $(this).css("background-color", "#252525");
+                    
+                });
+				
+				
+                
+            });
+            
+			function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+function openModal1() {
+  document.getElementById("myModal1").style.display = "block";
+}
+
+function closeModal1() {
+  document.getElementById("myModal1").style.display = "none";
+}
+
+var slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
+}
+
+function currentSlide1(n) {
+  showSlides1(slideIndex1 = n);
+}
+
+function showSlides1(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo1");
+  var captionText = document.getElementById("caption1");
+  if (n > slides.length) {slideIndex1 = 1}
+  if (n < 1) {slideIndex1 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex1-1].style.display = "block";
+  
+  
+}
+
+function openModal2() {
+  document.getElementById("myModal2").style.display = "block";
+}
+
+function closeModal2() {
+  document.getElementById("myModal2").style.display = "none";
+}
+
+var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo2");
+  var captionText = document.getElementById("caption2");
+  if (n > slides.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active2", "");
+  }
+  slides[slideIndex2-1].style.display = "block";
+  
+  
+}
+
+				</script>
+	
+		</body>
+  
+</html>

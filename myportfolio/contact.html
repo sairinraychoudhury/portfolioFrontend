@@ -1,0 +1,811 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    
+		<meta charset="utf-8">
+		
+		<title>Sairin-Personal portfolio(contact)</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Luckiest+Guy&family=Russo+One&family=Titan+One&display=swap" rel="stylesheet">	
+		
+		<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Luckiest+Guy&family=Russo+One&family=Titan+One&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+		
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+		</script>
+
+		
+		
+  </head>
+  
+  <style type="text/css">
+  
+  body{
+  
+  background-color: #111111;
+  font-family:Verdana, Geneva, sans-serif;
+  margin-top:0 auto;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+   animation-duration: 1s; /* the duration of the animation */
+animation-timing-function: ease-out; /* how the animation will behave */
+animation-delay: 0s; /* how long to delay the animation from starting */
+animation-iteration-count: 1; /* how many times the animation will play */
+animation-name: slideInFromLeft;
+  }
+  @keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+		background-color:#252525;
+		
+    }
+    100% {
+        transform: translateX(0);
+		background-color:#111111;
+    }
+}
+  .sidenav{
+  float:right !important;
+  position:absolute;
+  z-index: 1 !important; 
+ margin-left:90%;
+  }
+  
+  
+  #MiniLeftNav{
+	  float:right;
+	  
+ }
+  
+  #home i{
+	margin-top:150px !important;
+  }
+   #user i{
+	   border-radius:50% !important;
+	   width:48px;
+	   padding-left:12px ;
+   }
+   #bgclr i{
+	   background-color:#ffb400 !important;
+	   border-radius:50%;
+	   background-color:grey;
+	   padding:8px;
+	   color:white;
+	   z-index:1; 
+   }
+  
+  .navtext i{
+	  border-radius:50%;
+	  background-color:grey;
+	  padding:8px;
+	  color:white;
+	  z-index:1; 
+  }
+  
+  
+  #MiniLeftNav li{
+ 
+	list-style: outside none none;
+    margin: 20px 25px 5px 0px;
+    padding: 0;
+    width: 45px;
+}
+#MiniLeftNav li a{
+    padding: 5px;
+    position: relative;
+}
+
+.navtext i:hover{
+	background-color:#ffb400;
+}
+
+#MiniLeftNav span {
+	
+    font-family: 'Raleway', sans-serif;
+    font-size:12px;
+    font-weight:550;
+	color:white !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    bottom: 26px;
+	background-color:#ffb400 !important;
+    right: -22px;
+	line-height: 48px;
+    overflow: hidden;
+    padding-bottom:0 ;
+    position: absolute;
+	z-index:-1;
+    white-space: nowrap;
+    width: 0;
+    border-radius: 50px 0px 0px 50px;        <!--   15px 50px 30px 5px;-->
+    /* CSS3 Transition: */
+	-webkit-transition: 0.50s;
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.50s;
+	transition:  0.50s; 
+	
+	
+}
+#MiniLeftNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+#MiniLeftNav a:hover{text-decoration:none;
+}
+#MiniLeftNav a span{
+	background-color:#fff;
+	color:#3d4f0c;
+}
+
+<!--cross-->
+  .container {
+	 display: inline-block;
+	 cursor: pointer;
+}
+#cross{
+	float:right;
+	margin-right:2%;
+	margin-top:1%;
+	animation: mymove2 2s 1;
+	border:1px solid #252525;
+	border-radius:10%;
+	background-color:#252525;
+	padding:1%;
+	position:fixed;
+	z-index:2 ;
+	margin-left:90%;
+}
+.bar1, .bar2, .bar3 {
+	
+  width: 26px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px) ;
+  transform: rotate(-45deg) translate(-6px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+   transform: rotate(45deg) translate(-6px, -6px) ;
+}
+#menu{
+	display:none;
+	position:fixed;
+	width:80%;
+	height:100%;
+	margin:0;
+	margin-right:50%;
+	top:0;
+	left:0;
+	right:0;
+	z-index:2;
+}
+
+.icon{
+	color:white;
+	font-weight:500;
+	letter-spacing: 2px;
+	border-bottom:1px solid grey;
+	border-width:50%;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+.icon:hover{
+	color:#ffb400;
+}
+
+.icon i{
+	margin-top:4%;
+	margin-right:5%;
+	padding:4%;
+}
+
+.about i{
+	margin-left:1% !important;
+}
+
+.contact{
+	border:none !important;
+}
+
+header{
+	height:10px;
+}
+
+#contact{
+	position:absolute;
+	color:#252525;
+	margin-top:30px;
+	font-weight:1000;
+	font-size:660%;
+	letter-spacing: 5px;
+	left:0;
+	right:0;
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	z-index:-1;
+}
+
+#Aboutme-heading{
+	animation: fadein 4s;
+	position:absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color:white;
+	text-align:center;
+	margin-top:68px;
+	z-index:1;
+	font-weight:500;
+	letter-spacing: 4px;
+	font-family: 'Titan One', cursive;
+	font-size:52px;
+	z-index:1;
+}
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+#touch-heading{
+	color:#FFB400;
+}
+
+.whitetags{
+	color:white;
+}
+
+.greytag{
+	color:#BEBEBE;
+}
+
+.get-in-touch{
+	margin-top:200px;
+}
+
+.dont-be-shy-heading{
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.envelope{
+color:#FFB400 !important;
+
+}
+.head-tags{
+	color:#B2B2B2;
+	font-size:14px;
+}
+.mail-id{
+	font-size:12px;
+	margin-bottom:30px;
+}
+.icon-info{
+	margin:-40px 0px 0px 60px;
+}
+.phone{
+	color:white;
+ }
+ 
+ .phone:hover{
+	 color:white;
+	 text-decoration:none;
+ }
+ 
+ .contact-icons i{
+	 border-radius:50%;
+	 background-color:#252525;
+	 color:white;
+	 padding:5%;
+	 margin-right:15px;
+ }
+ 
+ .contact-icons:hover i{
+	 background-color:#FFB400;
+ }
+ 
+ .feel-free-content{
+	 font-size:16px;
+	 margin-bottom:25px;
+	 font-family: 'Tajawal', sans-serif;
+ }
+ 
+ .form-info-first-line{
+	 background-color:#252525;
+	 border:none;
+	 border-radius:40px;
+	 text-align:center;
+	 padding:25px;
+	 font-size:14px;
+	 color:white;
+ }			
+ 
+ .form-info-sec-line{
+	 background-color:#252525;
+	 border:none;
+	 border-radius:40px;
+	 text-align:left;
+	 font-size:14px;
+	 padding-left:5%;
+	 padding-top:2%;
+	 color:white;
+ }
+ 
+input[type=text]:focus{
+  color:white;
+  background-color:#252525;
+  outline: none;      /* Remove default outline and use border or box-shadow */
+  box-shadow: 0 0 0 2px orange; /* Full freedom. (works also with border-radius) */
+}
+
+input[type=email]:focus{
+ color:white;
+  background-color:#252525;
+  outline: none;      /* Remove default outline and use border or box-shadow */
+  box-shadow: 0 0 0 2px orange; /* Full freedom. (works also with border-radius) */
+}
+
+#exampleFormControlTextarea1:focus{
+  color:white;
+  background-color:#252525;
+  outline: none;      /* Remove default outline and use border or box-shadow */
+  box-shadow: 0 0 0 2px orange;
+
+}
+
+ input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+#exampleFormControlTextarea1:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.zin{
+position:relative;
+ z-index: -2; 
+ <!--prob-->
+}
+
+.sendmessage{
+	padding:2% !important;
+	padding-left:5% !important;
+	padding-right:5% !important;
+	border-radius:30px;
+	background-color:#ffb400;
+	border:none;
+	
+}
+
+.sendmessagelink{
+	color:white;
+	font size:10px;
+	font-family:sans-serif,Monospace;
+	text-align:center;
+	
+}
+
+.sendmessagelink:hover{
+	color:white;
+	text-decoration:none;
+}
+
+.sidemar{
+	margin-right:8px ;
+}
+
+button:focus { 
+	outline: none;
+}
+#loader{
+width: 100%;
+  height: 10px;
+  background: #111111;
+  position: fixed;
+  animation: mymove 2s 1;
+  
+  top: 0;
+}
+@keyframes mymove {
+  0%   {top: 0px; left: 0px; background: #FFB400;}
+  25%  {top: 0px; left: -1000px; background:#FFB400;}
+  50%  {top: 0px; left: -1000px; background:#FFB400;}
+  100% {top: 0px; left: 0px; background:#252525;}
+}
+#mob-taskbar{
+background-color:#252525;
+width:100%;
+height:60px;
+border-bottom:solid 1px #333333;
+position:fixed;
+z-index:1;
+animation: mymove2 2s 1;
+}
+@keyframes mymove2 {
+  from { opacity: 0.5}
+  to   { opacity: 1}
+  0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@media only screen and (min-width: 600px) {
+#mob-taskbar{
+display:none;
+}
+}
+@media only screen and (min-width: 600px) {
+.mob-section{
+display:none;
+}
+}
+
+.side-heading-mob{
+font-family: 'Titan One', cursive;
+color:white;
+padding-top:3%;
+padding-left:5%;
+letter-spacing:1px;
+}
+#touch-heading-mob{
+font-family: 'Titan One', cursive;
+color:white;
+padding-top:3%;
+color:#FFB400;
+letter-spacing:1px;
+}
+.top-margin-mob{
+
+margin-top:23%;
+}
+ .form-info-first-line-mob{
+	 background-color:#252525;
+	 border:none;
+	 border-radius:40px;
+	 text-align:left;
+	 padding:20px;
+	 font-size:14px;
+	 color:white;
+ }	
+.sendmessage i{
+visibility: hidden;
+
+} 
+ .sendmessage:hover i{
+ animation: wiggle 1s ease;
+  animation-iteration-count: 1;
+  visibility: visible;
+ }
+ @keyframes wiggle {
+  20%  { transform: translateX(6px);  }
+  40%  { transform: translateX(-6px); }
+  60%  { transform: translateX(2px);  }
+  80%  { transform: translateX(-1px); }
+  100% { transform: translateX(0);    }
+}
+ 
+</style>
+  
+		<body >
+		 <!-- full screen-->
+		 <div class="d-none d-lg-block"id="loader">
+		 </div>
+		 
+		 <header class="d-none d-lg-block d-md-block d-sm-block">
+		 
+		 <h1 id="contact">CONTACT</h1>
+		 <h1 id="Aboutme-heading">GET IN <span id="touch-heading">TOUCH</span></h1>
+		 
+		 </header>
+		 
+		 
+		 
+<div class="sidenav">
+		<ul class="d-none d-lg-block"id="MiniLeftNav" >
+    <li id="home">
+        <a class="navtext home " href="portfolio.html"><i class="fa fa-home fa-2x "></i> <span>HOME</span></a>
+    </li>
+    <li id="user">
+        <a class="navtext " href="about.html"><i class="fa fa-user fa-2x"></i> 
+            <span>ABOUT</span>
+        </a>
+    </li>
+    <li>
+         <a class="navtext" href="portfolioContents.html"><i class="fa fa-briefcase fa-2x"></i> 
+            <span>PORTFOLIO</span>
+         </a>
+    </li>
+    
+    <li id="bgclr">
+        <a class="" href="contact.html"><i class="fa fa-envelope fa-2x"></i> 
+            <span>CONTACT</span>
+        </a>
+    </li>
+</ul>
+  </div>
+  
+  <div class="container get-in-touch d-none  d-lg-block">
+  
+  <div class="row">
+  
+  <div class="col-md-4">
+  
+  <h5 class="whitetags dont-be-shy-heading">DONT'T BE SHY !</h5>
+  
+  <p class="whitetags feel-free-content">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+  
+  <i class="fa fa-envelope-open fa-2x envelope" aria-hidden="true"></i><div class="icon-info"><span class="head-tags">MAIL ME</span>
+  
+  <p class="whitetags mail-id">sairinraychoudhury@gmail.com</p></div>
+
+  <i class="fa fa-phone-square fa-2x envelope" aria-hidden="true"></i><div class="icon-info"><span class="head-tags">CALL ME</span>
+  
+  <p class="whitetags mail-id"><a class="phone" href="tel:+91 725-9601-274">+91 725-9601-274</a></p></div>
+  
+  <div><a href="https://www.facebook.com/profile.php?id=100008369013688"class="contact-icons"><i class="fa fa-facebook fa-1x " aria-hidden="true"></i></a><a href="https://twitter.com/RaySairin" class="contact-icons"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a><a href="https://www.instagram.com/sairinrc/?hl=en" class="contact-icons"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a><a href="https://www.linkedin.com/in/sairin-ray-choudhury-1100a31a0/?originalSubdomain=in" class="contact-icons"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a></div>
+
+
+  </div>
+  
+  <div class="col-md-8">
+  
+  <form >
+  <div class="form-row" >
+    <div class="form-group col-md-3">
+    
+      <input type="text" class="form-control form-info-first-line " id="inputEmail4" placeholder="YOUR NAME">
+    </div>
+	<div class="form-group col-md-4">
+     
+      <input type="email" class="form-control form-info-first-line" id="inputPassword4" placeholder="YOUR EMAIL">
+    </div>
+	<div class="form-group col-md-4 ">
+     
+      <input type="text" class="form-control form-info-first-line" id="inputPassword4" placeholder="YOUR SUBJECT">
+    </div>
+  </div>
+  <div class="form-row mt-3">
+  <div class="form-group col-md-11 ">
+    <textarea class="form-control form-info-sec-line "  id="exampleFormControlTextarea1" placeholder="YOUR MESSAGE" rows="6"></textarea>
+  </div>
+  </div>
+  <div class="form-row mt-3">
+  <div class="form-group col-md-12 ">
+  <button class=" sendmessage d-none d-lg-block icon-design"  ><a href="#" class="sendmessagelink" ><span class="sidemar">SEND MESSAGE</span><i class="fa fa-paper-plane" aria-hidden="true"></i></a></button>
+  </div>	
+  </div>
+  
+	</form>
+	
+	
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  <!--tab view-->
+  
+   <div class="d-block d-lg-none ">
+  
+  <div  onclick="myFunction(this)">
+  <div id="cross"  >
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+ 	</div>
+   </div>
+  <div id="menu" class="container" >
+  <ul  class="nav flex-column list-unstyled"  >
+                <li class="nav-item active home"><a class="nav-link icon" href="portfolio.html"><i class="fa fa-home fa-2x"></i><span> Home</span></a></li>
+                <li class="nav-item"><a class="nav-link icon about" href="about.html"><i class="fa fa-user fa-2x"></i><span> About</span></a></li>
+                <li class="nav-item"><a class="nav-link icon" href="portfolioContents.html"><i class="fa fa-folder-open fa-2x"></i><span>Portfolio</span></a></li>
+                <li class="nav-item"><a class="nav-link icon contact" href="contact.html"><i class="fa fa-envelope-open fa-2x"></i><span>Contact</span></a></li>
+              
+   </ul>
+   </div>
+   
+  
+   
+   </div>
+  
+  <div class="container get-in-touch d-none d-lg-none d-sm-block d-md-block">
+  
+  <div class="row">
+  
+  <div class="col-md-12">
+  
+  <h5 class="whitetags dont-be-shy-heading">DONT'T BE SHY !</h5>
+  
+  <p class="whitetags feel-free-content">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+  
+  <i class="fa fa-envelope-open fa-2x envelope" aria-hidden="true"></i><div class="icon-info"><span class="head-tags">MAIL ME</span>
+  
+  <p class="whitetags mail-id">sairinraychoudhury@gmail.com</p></div>
+
+  <i class="fa fa-phone-square fa-2x envelope" aria-hidden="true"></i><div class="icon-info"><span class="head-tags">CALL ME</span>
+  
+  <p class="whitetags mail-id"><a class="phone" href="tel:+91 725-9601-274">+91 725-9601-274</a></p></div>
+  
+  </div>
+  
+  </div>
+  
+  <div class="row">
+  
+	 
+  <div class="col-md-5"><a href="https://www.facebook.com/profile.php?id=100008369013688"class="contact-icons"><i class="fa fa-facebook fa-1x " aria-hidden="true"></i></a><a href="https://twitter.com/RaySairin" class="contact-icons"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a><a href="https://www.instagram.com/sairinrc/?hl=en" class="contact-icons"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a><a href="https://www.linkedin.com/in/sairin-ray-choudhury-1100a31a0/?originalSubdomain=in" class="contact-icons"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a></div>
+
+  </div>
+  
+  
+  
+  <form >
+  <div class="form-row mt-5" >
+    <div class="form-group col-md-4">
+    
+      <input type="text" class="form-control form-info-first-line " id="inputEmail4" placeholder="YOUR NAME">
+    </div>
+	<div class="form-group col-md-4">
+     
+      <input type="email" class="form-control form-info-first-line" id="inputPassword4" placeholder="YOUR EMAIL">
+    </div>
+	<div class="form-group col-md-4 ">
+     
+      <input type="text" class="form-control form-info-first-line" id="inputPassword4" placeholder="YOUR SUBJECT">
+    </div>
+  </div>
+  <div class="form-row mt-3">
+  <div class="form-group col-md-12 ">
+    <textarea class="form-control form-info-sec-line "  id="exampleFormControlTextarea1" placeholder="YOUR MESSAGE" rows="6"></textarea>
+  </div>
+  </div>
+  <div class="form-row mt-3">
+  <div class="form-group col-md-12 ">
+  <button class=" sendmessage d-none d-md-block d-sm-block icon-design"  ><a href="#" class="sendmessagelink" ><span class="sidemar">SEND MESSAGE</span><i class="fa fa-paper-plane" aria-hidden="true"></i></a></button>
+  </div>	
+  </div>
+  
+	</form>
+	
+	</div>
+  
+  <!--mob view-->
+  
+  <div  id="mob-taskbar">
+	<h4 class="side-heading-mob">GET IN <SPAN  id="touch-heading-mob">TOUCH</SPAN></h4>
+  </div>
+  <div class="container mob-section">
+  
+  <div class="row ">
+  
+  <div class="col-sm-12">
+  
+  <h5 class="whitetags top-margin-mob dont-be-shy-heading">DONT'T BE SHY !</h5>
+  
+  <p class="whitetags feel-free-content">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+  
+  <i class="fa fa-envelope-open fa-2x envelope" aria-hidden="true"></i><div class="icon-info"><span class="head-tags">MAIL ME</span>
+  
+  <p class="whitetags mail-id">sairinraychoudhury@gmail.com</p></div>
+
+  <i class="fa fa-phone-square fa-2x envelope" aria-hidden="true"></i><div class="icon-info"><span class="head-tags">CALL ME</span>
+  
+  <p class="whitetags mail-id"><a class="phone" href="tel:+91 725-9601-274">+91 725-9601-274</a></p></div>
+  
+  </div>
+  
+  </div>
+  
+  <div class="row">
+  
+	 
+  <div class="col-sm-4"><a href="https://www.facebook.com/profile.php?id=100008369013688"class="contact-icons"><i class="fa fa-facebook fa-1x " aria-hidden="true"></i></a><a href="https://twitter.com/RaySairin" class="contact-icons"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a><a href="https://www.instagram.com/sairinrc/?hl=en" class="contact-icons"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a><a href="https://www.linkedin.com/in/sairin-ray-choudhury-1100a31a0/?originalSubdomain=in" class="contact-icons"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a></div>
+  </div>
+  
+  
+  
+  <form >
+  <div class="form-row mt-5" >
+    <div class="form-group col-sm-10">
+    
+      <input type="text" class="form-control form-info-first-line-mob " id="inputEmail4" placeholder="YOUR NAME">
+    </div>
+	<div class="form-group col-sm-10">
+     
+      <input type="email" class="form-control form-info-first-line-mob" id="inputPassword4" placeholder="YOUR EMAIL">
+    </div>
+	<div class="form-group col-sm-10 ">
+     
+      <input type="text" class="form-control form-info-first-line-mob" id="inputPassword4" placeholder="YOUR SUBJECT">
+    </div>
+  </div>
+  <div class="form-row mt-3">
+  <div class="form-group col-sm-12 ">
+    <textarea class="form-control form-info-sec-line "  id="exampleFormControlTextarea1" placeholder="YOUR MESSAGE" rows="6"></textarea>
+  </div>
+  </div>
+  <div class="form-row mt-3">
+  <div class="form-group col-sm-10 ">
+  <button class=" sendmessage  icon-design"  ><a href="#" class="sendmessagelink" ><span class="sidemar">SEND MESSAGE</span><i class="fa fa-paper-plane" aria-hidden="true"></i></a></button>
+  </div>	
+  </div>
+  
+	</form>
+	
+  
+  </div>
+  
+  
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+				
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+			
+				<script type="text/javascript">
+				
+					function myFunction(x) {
+	  x.classList.toggle("change");
+	}
+	
+	$("#cross").click(function(){
+  $(".mymobilepage").toggle();
+});
+	
+			
+  $("#cross").click(function() {
+    $("#menu").animate({
+                    width:"toggle"
+                    
+                },'fast',  function() {
+                    
+                    $(this).css("background-color", "#252525");
+                    
+                });
+                
+            });
+            
+			
+			
+ 
+ 
+				</script>
+	
+		</body>
+  
+</html>
